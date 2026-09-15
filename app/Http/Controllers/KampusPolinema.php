@@ -9,26 +9,26 @@ class KampusPolinema extends Controller
     //method kampus polinema
     public function home()
     {
-        return view('home');
+        return view('halaman.home');
     }
 
     public function tentang()
     {
-        return view('tentang');
+        return view('halaman.tentang');
     }
 
     public function akademik()
     {
-        return view('akademik');
+        return view('halaman.akademik');
     }
 
     public function berita()
     {
-        return view('berita');
+        return view('halaman.berita');
     }
 
     public function kontak()
     {
-        return view('kontak');
+        return view('halaman.kontak');
     }
 }

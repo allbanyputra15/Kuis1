@@ -9,7 +9,7 @@
           content="width=device-width, initial-scale=1.0">
 
     <title>
-        @yield('title', 'Universitas Nusantara')
+        @yield('title', 'Politeknik Negeri Malang - PSDKU Pamekasan')
     </title>
 
     <link rel="stylesheet"
@@ -34,11 +34,11 @@
 
                 <div>
                     <strong>
-                        UNIVERSITAS
+                        POLINEMA
                     </strong>
 
                     <span>
-                        NUSANTARA
+                        PSDKU Pamekasan
                     </span>
                 </div>
 
@@ -84,7 +84,9 @@
     <main>
 
         @yield('content')
-
+        @yield('card1')
+        @yield('card2')
+        @yield('card3')
     </main>
 
 
@@ -97,7 +99,7 @@
             <div>
 
                 <h3>
-                    Universitas Nusantara
+                    POLINEMA PAMEKASAN
                 </h3>
 
                 <p>
@@ -140,7 +142,7 @@
                 </h3>
 
                 <p>
-                    Jl. Pendidikan No. 10
+                    Jl. Stadion No.IX/03, Ombul, Lawangan Daya, Kec. Pademawu, Kabupaten Pamekasan, Jawa Timur 69323.
                 </p>
 
                 <p>
@@ -159,7 +161,7 @@
         <div class="copyright">
 
             © {{ date('Y') }}
-            Universitas Nusantara
+            Politeknik Negeri Malang - PSDKU Pamekasan
 
         </div>
 

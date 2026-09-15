@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [KampusPolinema::class, 'home'])
+Route::get('/home', [KampusPolinema::class, 'home'])
     ->name('home');
 
 Route::get('/tentang', [KampusPolinema::class, 'tentang'])
