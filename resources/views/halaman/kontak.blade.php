@@ -28,12 +28,11 @@
             <div>
 
                 <h2>
-                    Universitas Nusantara
+                    Politenik Negeri Malang PSDKU-Pamekasan
                 </h2>
 
                 <p>
-                    📍 Jl. Pendidikan No. 10,
-                    Indonesia
+                    📍 Jl. Stadion No.IX/03, Ombul, Lawangan Daya, Kec. Pademawu, Kabupaten Pamekasan, Jawa Timur 69323.
                 </p>
 
                 <p>
@@ -58,7 +57,7 @@
                 </p>
 
                 <p>
-                    08.00 - 16.00 WIB
+                    07.00 - 21.00 WIB
                 </p>
 
             </div>

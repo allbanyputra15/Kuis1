@@ -38,12 +38,12 @@
                     </small>
 
                     <h2>
-                        Universitas Nusantara
+                        Politenik Negeri Malang PSDKU-Pamekasan
                         Raih Prestasi Nasional
                     </h2>
 
                     <p>
-                        Mahasiswa Universitas Nusantara
+                        Mahasiswa Politenik Negeri Malang PSDKU-Pamekasan
                         berhasil meraih prestasi dalam
                         kompetisi tingkat nasional.
                     </p>
@@ -62,15 +62,15 @@
                 <div class="news-content">
 
                     <small>
-                        10 September 2026
+                        18 Februari 2025
                     </small>
 
                     <h2>
-                        Pembukaan Tahun Akademik
+                        Pembukaan Penerimaan Mahasiswa Baru
                     </h2>
 
                     <p>
-                        Universitas Nusantara membuka
+                        Politenik Negeri Malang PSDKU-Pamekasan membuka
                         tahun akademik baru dengan
                         berbagai kegiatan.
                     </p>

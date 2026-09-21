@@ -5,18 +5,18 @@
 @section('content')
 
 <section class="hero">
-
-    <div class="container hero-container">
+        <img src="{{ asset('img/image.png') }}"
+            alt="Kampus">
 
         <div class="hero-text">
-
+            
             <p class="subtitle">
                 SELAMAT DATANG DI
             </p>
 
             <h1>
                 Politeknik Negeri Malang
-                <span>PSDKU</span>
+                <span>PSDKU Pamekasan</span>
             </h1>
 
             <p>
@@ -39,17 +39,6 @@
 
         </div>
 
-
-        <div class="hero-image">
-
-            <div>
-                🏫
-            </div>
-
-        </div>
-
-    </div>
-
 </section>
 
 
@@ -71,17 +60,18 @@
         <div class="about">
 
             <div class="about-image">
-                🎓
+                <img src="{{ asset('img/PSDKU.jpg') }}"
+                     alt="PSDKU Pamekasan">
             </div>
 
             <div>
 
                 <h2>
-                    Universitas Nusantara
+                    Politeknik Negeri Malang - PSDKU Pamekasan
                 </h2>
 
                 <p>
-                    Universitas Nusantara merupakan
+                    Politeknik Negeri Malang merupakan
                     perguruan tinggi yang berkomitmen
                     memberikan pendidikan berkualitas
                     bagi generasi muda.

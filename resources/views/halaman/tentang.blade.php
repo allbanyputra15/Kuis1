@@ -26,17 +26,18 @@
         <div class="about-page">
 
             <div class="about-image">
-                🏛️
+                <img src="{{ asset('img/foto.jpg') }}"
+                    alt="Kampus">
             </div>
 
             <div>
 
                 <h2>
-                    Universitas Nusantara
+                    Politeknik Negeri Malang - PSDKU Pamekasan
                 </h2>
 
                 <p>
-                    Universitas Nusantara adalah
+                    Politeknik Negeri Malang adalah
                     perguruan tinggi yang berkomitmen
                     memberikan pendidikan berkualitas
                     dan relevan dengan perkembangan

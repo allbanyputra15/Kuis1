@@ -29,7 +29,8 @@
                class="logo">
 
                 <div class="logo-icon">
-                    🎓
+                    <img src="{{ asset('img/logo.webp') }}"
+                         alt="Logo Politeknik Negeri Malang - PSDKU Pamekasan">
                 </div>
 
                 <div>
@@ -84,9 +85,7 @@
     <main>
 
         @yield('content')
-        @yield('card1')
-        @yield('card2')
-        @yield('card3')
+        
     </main>
 
 
