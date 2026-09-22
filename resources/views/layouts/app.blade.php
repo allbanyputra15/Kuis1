@@ -25,7 +25,7 @@
 
         <div class="container navbar-container">
 
-            <a href="{{ route('home') }}"
+            <a href="/home"
                class="logo">
 
                 <div class="logo-icon">
@@ -48,27 +48,27 @@
 
             <nav>
 
-                <a href="{{ route('home') }}"
+                <a href="/home"
                    class="{{ request()->routeIs('home') ? 'active' : '' }}">
                     Beranda
                 </a>
 
-                <a href="{{ route('tentang') }}"
+                <a href="/tentang"
                    class="{{ request()->routeIs('tentang') ? 'active' : '' }}">
                     Tentang
                 </a>
 
-                <a href="{{ route('akademik') }}"
+                <a href="/akademik"
                    class="{{ request()->routeIs('akademik') ? 'active' : '' }}">
                     Akademik
                 </a>
 
-                <a href="{{ route('berita') }}"
+                <a href="/berita"
                    class="{{ request()->routeIs('berita') ? 'active' : '' }}">
                     Berita
                 </a>
 
-                <a href="{{ route('kontak') }}"
+                <a href="/kontak"
                    class="{{ request()->routeIs('kontak') ? 'active' : '' }}">
                     Kontak
                 </a>
@@ -115,19 +115,19 @@
                     Menu
                 </h3>
 
-                <a href="{{ route('home') }}">
+                <a href="/home">
                     Beranda
                 </a>
 
-                <a href="{{ route('tentang') }}">
+                <a href="/tentang">
                     Tentang
                 </a>
 
-                <a href="{{ route('akademik') }}">
+                <a href="/akademik">
                     Akademik
                 </a>
 
-                <a href="{{ route('berita') }}">
+                <a href="/berita">
                     Berita
                 </a>
 

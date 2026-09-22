@@ -27,11 +27,11 @@
 
             <div class="hero-button">
 
-                <a href="{{ route('tentang') }}">
+                <a href="/tentang">
                     Tentang Kami
                 </a>
 
-                <a href="{{ route('akademik') }}">
+                <a href="/akademik">
                     Program Studi
                 </a>
 
@@ -85,7 +85,7 @@
                     yang inovatif.
                 </p>
 
-                <a href="{{ route('tentang') }}">
+                <a href="/tentang">
                     Selengkapnya →
                 </a>
 
