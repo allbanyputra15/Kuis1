@@ -48,29 +48,19 @@
 
             <nav>
 
-                <a href="/home"
-                   class="{{ request()->routeIs('home') ? 'active' : '' }}">
-                    Beranda
+                <a href="/home">                    Beranda
                 </a>
 
-                <a href="/tentang"
-                   class="{{ request()->routeIs('tentang') ? 'active' : '' }}">
-                    Tentang
+                <a href="/tentang">                    Tentang
                 </a>
 
-                <a href="/akademik"
-                   class="{{ request()->routeIs('akademik') ? 'active' : '' }}">
-                    Akademik
+                <a href="/akademik">                    Akademik
                 </a>
 
-                <a href="/berita"
-                   class="{{ request()->routeIs('berita') ? 'active' : '' }}">
-                    Berita
+                <a href="/berita">                    Berita
                 </a>
 
-                <a href="/kontak"
-                   class="{{ request()->routeIs('kontak') ? 'active' : '' }}">
-                    Kontak
+                <a href="/kontak">                    Kontak
                 </a>
 
             </nav>
