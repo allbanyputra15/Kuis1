@@ -1,83 +1,45 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<head>
+        <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <meta charset="UTF-8">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+        <!-- Scripts -->
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <title>
+        <title>
         @yield('title', 'Politeknik Negeri Malang - PSDKU Pamekasan')
     </title>
 
     <link rel="stylesheet"
-          href="{{ asset('css/style.css') }}">
+        href="{{ asset('css/style.css') }}">
 
-</head>
+    </head>
+    <body class="font-sans antialiased">
+        <div class="min-h-screen bg-gray-100">
+            @include('layouts.navigation')
 
-<body>
-
-    <!-- NAVBAR -->
-
-    <header class="navbar">
-
-        <div class="container navbar-container">
-
-            <a href="/home"
-               class="logo">
-
-                <div class="logo-icon">
-                    <img src="{{ asset('img/logo.webp') }}"
-                         alt="Logo Politeknik Negeri Malang - PSDKU Pamekasan">
+            <!-- Page Heading -->
+            @isset($header)
+            <header class="bg-white shadow">
+                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                    {{ $header }}
                 </div>
+            </header>
+        @endisset
 
-                <div>
-                    <strong>
-                        POLINEMA
-                    </strong>
-
-                    <span>
-                        PSDKU Pamekasan
-                    </span>
-                </div>
-
-            </a>
-
-
-            <nav>
-
-                <a href="/home">                    Beranda
-                </a>
-
-                <a href="/tentang">                    Tentang
-                </a>
-
-                <a href="/akademik">                    Akademik
-                </a>
-
-                <a href="/berita">                    Berita
-                </a>
-
-                <a href="/kontak">                    Kontak
-                </a>
-
-            </nav>
-
+            <!-- Page Content -->
+            <main>
+                @yield('content')
+            </main>
         </div>
-
-    </header>
-
-
-    <!-- CONTENT -->
-
-    <main>
-
-        @yield('content')
-        
-    </main>
-
 
     <!-- FOOTER -->
 
@@ -155,7 +117,5 @@
         </div>
 
     </footer>
-
-</body>
-
+    </body>
 </html>

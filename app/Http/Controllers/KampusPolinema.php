@@ -31,4 +31,9 @@ class KampusPolinema extends Controller
     {
         return view('halaman.kontak');
     }
+
+    public function coba()
+    {
+        return view('bootstrap.coba');
+    }
 }
