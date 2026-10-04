@@ -16,8 +16,12 @@
     <main class="min-vh-100 d-flex align-items-center justify-content-center py-5">
         <div class="container" style="max-width: 480px">
             <div class="text-center mb-4">
-                <a class="h4 fw-bold text-decoration-none text-primary" href="{{ url('/') }}">POLINEMA
-                    PAMEKASAN</a>
+                <a class="d-inline-flex flex-column align-items-center gap-2 h4 fw-bold text-decoration-none text-primary"
+                    href="{{ url('/') }}">
+                    <img src="{{ asset('img/logo.webp') }}" alt="Logo PSDKU Pamekasan" width="96" height="96"
+                        class="rounded-circle object-fit-cover">
+                    <span>POLINEMA PAMEKASAN</span>
+                </a>
             </div>
             <div class="card border-0 shadow-sm">
                 <div class="card-body p-4 p-sm-5">

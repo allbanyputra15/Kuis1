@@ -1,7 +1,10 @@
 <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
     <div class="container">
-        <a class="navbar-brand fw-bold text-primary" href="{{ route('home') }}">POLINEMA <span
-                class="text-dark">PAMEKASAN</span></a>
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-primary" href="{{ route('home') }}">
+            <img src="{{ asset('img/logo.webp') }}" alt="Logo PSDKU Pamekasan" width="44" height="44"
+                class="rounded-circle object-fit-cover">
+            <span>POLINEMA <span class="text-dark">PAMEKASAN</span></span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation"
             aria-controls="mainNavigation" aria-expanded="false" aria-label="Buka navigasi">
             <span class="navbar-toggler-icon"></span>
